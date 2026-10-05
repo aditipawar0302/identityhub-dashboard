@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Unicons -->
+    <link rel="stylesheet"
+        href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>IdentityHub - Enterprise Dashboard</title>
+</head>
+
+<body>
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <nav>
+
+        <div class="logo-name">
+
+            <div class="logo-image">
+                <img src="images/IdentityHub Shield and Key Logo.png" alt="IdentityHub Logo">
+            </div>
+
+            <span class="logo_name">IdentityHub</span>
+
+        </div>
+
+
+        <div class="menu-items">
+
+            <!-- ================= NAVIGATION ================= -->
+
+            <ul class="nav-links">
+
+                <!-- Dashboard -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-estate"></i>
+                        <span class="link-name">Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Users -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-users-alt"></i>
+                        <span class="link-name">Users</span>
+                    </a>
+                </li>
+
+                <!-- Applications -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-apps"></i>
+                        <span class="link-name">Applications</span>
+                    </a>
+                </li>
+
+                <!-- Roles & Permissions -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-shield-check"></i>
+                        <span class="link-name">Roles & Permissions</span>
+                    </a>
+                </li>
+
+                <!-- Authentication -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-lock"></i>
+                        <span class="link-name">Authentication</span>
+                    </a>
+                </li>
+
+                <!-- API Monitoring -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-server-network"></i>
+                        <span class="link-name">API Monitoring</span>
+                    </a>
+                </li>
+
+                <!-- Audit Logs -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-file-alt"></i>
+                        <span class="link-name">Audit Logs</span>
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- ================= BOTTOM MENU ================= -->
+
+            <ul class="logout-mode">
+
+                <!-- Logout -->
+                <li>
+                    <a href="#">
+                        <i class="uil uil-signout"></i>
+                        <span class="link-name">Logout</span>
+                    </a>
+                </li>
+
+
+                <!-- Dark Mode -->
+                <li class="mode">
+
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Dark Mode</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN DASHBOARD ================= -->
+
+    <section class="dashboard">
+
+
+        <!-- ================= TOP BAR ================= -->
+
+        <div class="top">
+
+            <!-- Sidebar Toggle -->
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+
+            <!-- Search -->
+            <div class="search-box">
+
+                <i class="uil uil-search"></i>
+
+                <input
+                    type="text"
+                    placeholder="Search users, applications or events..."
+                >
+
+            </div>
+
+            <!-- Profile image REMOVED -->
+
+        </div>
+
+
+        <!-- ================= DASHBOARD CONTENT ================= -->
+
+        <div class="dash-content">
+
+
+            <!-- ================= OVERVIEW ================= -->
+
+            <div class="overview">
+
+                <div class="title">
+
+                    <i class="uil uil-tachometer-fast-alt"></i>
+
+                    <span class="text">
+                        Identity & Access Overview
+                    </span>
+
+                </div>
+
+
+                <!-- ================= DASHBOARD CARDS ================= -->
+
+                <div class="boxes">
+
+
+                    <!-- Active Users -->
+
+                    <div class="box box1">
+
+                        <i class="uil uil-users-alt"></i>
+
+                        <span class="text">
+                            Active Users
+                        </span>
+
+                        <span class="number">
+                            12,480
+                        </span>
+
+                    </div>
+
+
+                    <!-- API Requests -->
+
+                    <div class="box box2">
+
+                        <i class="uil uil-server-network"></i>
+
+                        <span class="text">
+                            API Requests
+                        </span>
+
+                        <span class="number">
+                            84,320
+                        </span>
+
+                    </div>
+
+
+                    <!-- Security Events -->
+
+                    <div class="box box3">
+
+                        <i class="uil uil-shield-check"></i>
+
+                        <span class="text">
+                            Security Events
+                        </span>
+
+                        <span class="number">
+                            24
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= RECENT ACTIVITY ================= -->
+
+            <div class="activity">
+
+                <div class="title">
+
+                    <i class="uil uil-clock-three"></i>
+
+                    <span class="text">
+                        Recent Activity
+                    </span>
+
+                </div>
+
+
+                <div class="activity-data">
+
+
+                    <!-- ================= USER ================= -->
+
+                    <div class="data names">
+
+                        <span class="data-title">
+                            User
+                        </span>
+
+                        <span class="data-list">
+                            Aarav Sharma
+                        </span>
+
+                        <span class="data-list">
+                            Priya Mehta
+                        </span>
+
+                        <span class="data-list">
+                            Rahul Verma
+                        </span>
+
+                        <span class="data-list">
+                            Sneha Patil
+                        </span>
+
+                        <span class="data-list">
+                            Vikram Joshi
+                        </span>
+
+                        <span class="data-list">
+                            Neha Kulkarni
+                        </span>
+
+                        <span class="data-list">
+                            Rohan Deshmukh
+                        </span>
+
+                    </div>
+
+
+                    <!-- ================= APPLICATION ================= -->
+
+                    <div class="data email">
+
+                        <span class="data-title">
+                            Application
+                        </span>
+
+                        <span class="data-list">
+                            Control Hub
+                        </span>
+
+                        <span class="data-list">
+                            Webex
+                        </span>
+
+                        <span class="data-list">
+                            Control Hub
+                        </span>
+
+                        <span class="data-list">
+                            Webex
+                        </span>
+
+                        <span class="data-list">
+                            Identity API
+                        </span>
+
+                        <span class="data-list">
+                            Control Hub
+                        </span>
+
+                        <span class="data-list">
+                            Webex
+                        </span>
+
+                    </div>
+
+
+                    <!-- ================= ACTION ================= -->
+
+                    <div class="data joined">
+
+                        <span class="data-title">
+                            Action
+                        </span>
+
+                        <span class="data-list">
+                            Role Updated
+                        </span>
+
+                        <span class="data-list">
+                            User Provisioned
+                        </span>
+
+                        <span class="data-list">
+                            Login Attempt
+                        </span>
+
+                        <span class="data-list">
+                            Permission Changed
+                        </span>
+
+                        <span class="data-list">
+                            API Authentication
+                        </span>
+
+                        <span class="data-list">
+                            User Created
+                        </span>
+
+                        <span class="data-list">
+                            Access Granted
+                        </span>
+
+                    </div>
+
+
+                    <!-- ================= TIME ================= -->
+
+                    <div class="data type">
+
+                        <span class="data-title">
+                            Time
+                        </span>
+
+                        <span class="data-list">
+                            2 min ago
+                        </span>
+
+                        <span class="data-list">
+                            5 min ago
+                        </span>
+
+                        <span class="data-list">
+                            12 min ago
+                        </span>
+
+                        <span class="data-list">
+                            18 min ago
+                        </span>
+
+                        <span class="data-list">
+                            24 min ago
+                        </span>
+
+                        <span class="data-list">
+                            31 min ago
+                        </span>
+
+                        <span class="data-list">
+                            42 min ago
+                        </span>
+
+                    </div>
+
+
+                    <!-- ================= STATUS ================= -->
+
+                    <div class="data status">
+
+                        <span class="data-title">
+                            Status
+                        </span>
+
+                        <span class="data-list status-success">
+                            Success
+                        </span>
+
+                        <span class="data-list status-success">
+                            Success
+                        </span>
+
+                        <span class="data-list status-success">
+                            Success
+                        </span>
+
+                        <span class="data-list status-warning">
+                            Warning
+                        </span>
+
+                        <span class="data-list status-success">
+                            Success
+                        </span>
+
+                        <span class="data-list status-success">
+                            Success
+                        </span>
+
+                        <span class="data-list status-success">
+                            Success
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
